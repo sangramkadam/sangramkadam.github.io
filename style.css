@@ -42,8 +42,14 @@ p.big {
     margin-top: 50px;
     margin-bottom: 0px;
 }
+#color3 {
+    background-color: #333333;
+    padding: 50px; 
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
 
-.link { color: #000000; } /* CSS link color (red) */
+.link { color: #000000; } 
 .link:hover { color: #a9a9a9; }
 
 
