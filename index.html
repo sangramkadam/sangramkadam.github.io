@@ -33,28 +33,32 @@
             });
             });
             
-            $(window).scroll(function() {
-                if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-                    $('#return-to-top').fadeIn(200);    // Fade in the arrow
-                } else {
-                    $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-                }
-            });
-            $('#return-to-top').click(function() {      // When arrow is clicked          
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
-            });
+        }
         </script>
     </head>
     
     
     <body>
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-    <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
     <script src="js/bootstrap.js"></script>
         
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Sangram Kadam</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
