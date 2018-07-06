@@ -44,8 +44,8 @@ p.big {
 }
 #color3 {
     background-color: #333333;
-    padding: 50px; 
-    margin-top: 50px;
+    padding: 30px; 
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
@@ -57,7 +57,7 @@ p.big {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 70px;
+  width: 65px;
   text-align: center;
   text-decoration: none;
   margin: 5px 5px;
