@@ -4,18 +4,18 @@ Navbar
 
 .navbar {
     transition: all 0.4s;
-    background: #7DC8FA;
+    background: #44505900;
     font-family: 'Sora', sans-serif;
     font-size: 20px;
 }
 
 .navbar .nav-link {
-    color: #000;
+    color: #fff;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #47b;
+    color: #9df;
     text-decoration: none;
     font-size: 25px;
 }
@@ -27,7 +27,7 @@ Navbar
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #007CC7;
+    background: #6d7c81;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
 }
@@ -38,7 +38,7 @@ Navbar
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #235;
+    color: #444;
     text-decoration: none;
     font-size:25px;
 }
@@ -77,14 +77,14 @@ h1 {
  font-family: 'Playfair Display', serif;
  font-weight: 700;
  font-style: italic;
- color: #4DA8DA;
+ color: #12232E;
  padding 10px;
 }
 
 h2, h3, h4, h5, h6 {
  font-family: 'Playfair Display', serif;
  font-weight: 600;
- color: #eeffff;
+ color: #000;
 }
 
 
@@ -96,12 +96,12 @@ section {
   display: table;
   margin: 0;
   max-width: none;
-  color: white;
-  background-color: #12232E;
+  color: black;
+  background-color: #9aa9ae;
   height: 100vh;
   }
   section:nth-of-type(2n) {
-    background-color: #203647;
+    background-color: #c2cccf;
   }
 
 
@@ -134,8 +134,8 @@ p.big {
 }
 
 
-.link { color: #ccffff; } 
-.link:hover { color: #a9a9a9; }
+.link { color: #004555; } 
+.link:hover { color: #335555; }
 
 
 
